@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.current a {
+  color: orangered;
+  font-weight: 600;
+}
+
+.zneakers {
+  padding: 10px;
+  color: #ffffff;
+  position: absolute;
+  left: 175px;
+  font-size: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c2226;
+  background-image: url('../assets/images/zneak.jpg');
+  background-position: center right;
+  background-size: cover;
+  height: 450px;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding: 15px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar li a {
+  position: relative;
+  padding: 15px;
+  right: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.description h1 {
+  color: #ffffff;
+  padding: 15px;
+}
+
+.description p {
+  font-size: 1.1em;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.description {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+  position: absolute;
+  top: 100px;
+  left: 10%;
+}
+
+.description .heading {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 25px;
+}
+
+p {
+  margin: 35px;
+}
+
+button {
+  border: none;
+}
+
+button a {
+  padding: 20px;
+  background-color: orangered;
+  border: none;
+  width: 150px;
+  color: #ffffff;
+  font-size: 1.2em;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  transition: 0.1s ease-in;
+}
+
+button a:hover {
+  background-color: #ffffff;
+  color: orangered;
+}
+
+.discover {
+  text-align: center;
+}
+
+.section-two {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  width: 80%;
+  margin: auto;
+  color: #090b0d;
+}
+
+.picture {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.sneaker-one {
+  background-color: aqua;
+  background-image: url('../assets/images/shoe1.jpg');
+  background-position: center right;
+  background-size: cover;
+}
+
+.sneaker-two {
+  background-color: peru;
+  background-image: url('../assets/images/shoe2.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.sneaker-three {
+  background-color: green;
+  background-image: url('../assets/images/shoe3.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.sneaker-four {
+  background-color: red;
+  background-image: url('../assets/images/shoe4.jpeg');
+  background-position: center right;
+  background-size: cover;
+}
+
+.section-new {
+  width: 90%;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  display: grid;
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
+  border: solid 2px orangered;
+  grid-template-areas:
+    'one one two two two two four four'
+    'one one two two two two four four'
+    'one one three three three three four four';
+}
+
+.new1 {
+  grid-area: one;
+  background-color: #090b0d;
+  background-image: url('../assets/images/new1.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.new2 {
+  grid-area: two;
+  background-color: rgb(36, 5, 29);
+  background-image: url('../assets/images/new2.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.new3 {
+  grid-area: three;
+  background-color: aquamarine;
+  background-image: url('../assets/images/shoe3.jpg');
+  background-position: center right;
+  background-size: cover;
+}
+
+.new4 {
+  grid-area: four;
+  background-color: maroon;
+  background-image: url('../assets/images/new3.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.footer {
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  height: 60px;
+  background-color: #090b0d;
+}
